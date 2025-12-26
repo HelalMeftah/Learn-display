@@ -11,6 +11,6 @@
     color:black;
     padding: 10px;
     margin: 5px;
-    justify-content: center;
+    justify-content: space-around;
     box-sizing: border-box;
 }
