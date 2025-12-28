@@ -22,3 +22,22 @@ img {
 img:hover{
     filter:blur(0)
 }
+.fff {
+    height: 200px;
+    width: 400px;
+    background-color: #cc0e0e;
+    position:relative;
+    margin: 20px auto;
+    padding: 10px;
+    background-image: linear-gradient(to right,#234321,#acacac,#ababab);
+
+}
+.fff::before{
+    content:"";
+    position:absolute;
+    top:-10;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:blue;
+}
