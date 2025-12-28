@@ -5,12 +5,20 @@
     background-color: lightgreen;
 }
 
-.container div{
+.container div {
     width: 24%;
     background-color: blueviolet;
-    color:black;
+    color: black;
     padding: 10px;
     margin: 5px;
     justify-content: space-around;
     box-sizing: border-box;
+}
+
+img {
+    /* transition: 0.3s; */
+    filter: invert(23)
+}
+img:hover{
+    filter:blur(0)
 }
