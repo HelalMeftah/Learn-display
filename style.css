@@ -27,7 +27,7 @@ img:hover{
     width: 400px;
     background-color: #eeeeee;
     position:relative;
-    margin: 20px auto;
+    margin: 20px ;
     padding: 10px;
 
 }
@@ -39,6 +39,17 @@ img:hover{
     height:10px;
     width:100%;
     background-color:rgb(255, 0, 0);
-    background-image: linear-gradient(to right,#234321 30%,#0a9c3b 30%,#0a9c3b 50%,#ababab 50%,#ababab 80%,#0a9c3b 80%);
+    background-image: linear-gradient(to right,#234321 30%,#0a9c3b 30%,#0a9c3b 50%,#ababab 50%,#ababab 80%,red 80%);
+
+}
+.fff::after{
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    height:22px;
+    width:100%;
+    background-color:rgb(255, 0, 0);
+    background-image: linear-gradient(to right,red 20%,#ababab 20%,#ababab 50%,#0a9c3b 50%,#0a9c3b 70%,#234321 70%);
 
 }
