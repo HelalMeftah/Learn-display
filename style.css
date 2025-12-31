@@ -57,6 +57,6 @@ img:hover{
 .grid{
     display:giid;
     grid-template-columns:repeat(3. 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 100px 200px;
     gap:10px;
 }
