@@ -53,3 +53,10 @@ img:hover{
     background-image: linear-gradient(to right,red 20%,#ababab 20%,#ababab 50%,#0a9c3b 50%,#0a9c3b 70%,#234321 70%);
 
 }
+
+.grid{
+    display:giid;
+    grid-template-columns:repeat(3. 1fr);
+    grid-template-rows: auto;
+    gap:10px;
+}
